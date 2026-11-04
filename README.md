@@ -1,6 +1,6 @@
-\# 📡 SPECTRIX
+# 📡 SPECTRIX
 
-\### AI-Based Cognitive Radio Spectrum Management for Dynamic Wireless Networks
+### AI-Based Cognitive Radio Spectrum Management for Dynamic Wireless Networks
 
 
 
@@ -14,7 +14,7 @@
 
 <p align="center">
 
-&#x20; <img src="https://img.shields.io/badge/Python-3.13.1-blue?logo=python\&logoColor=white" alt="Python">
+&#x20; <img src="https://img.shields.io/badge/Python-3.13.1-blue?logo=python&logoColor=white" alt="Python">
 
 &#x20; <img src="https://img.shields.io/badge/NumPy-2.5.4-013243?logo=numpy" alt="NumPy">
 
@@ -30,59 +30,59 @@
 
 
 
-\---
+---
 
 
 
-\## 📑 Table of Contents
+## 📑 Table of Contents
 
 
 
-\- \[Overview](#-overview)
+- [Overview](#-overview)
 
-\- \[Problem Statement](#-problem-statement)
+- [Problem Statement](#-problem-statement)
 
-\- \[Objectives](#-project-objectives)
+- [Objectives](#-project-objectives)
 
-\- \[System Architecture](#-system-architecture)
+- [System Architecture](#-system-architecture)
 
-\- \[How SPECTRIX Works](#-how-spectrix-works)
+- [How SPECTRIX Works](#-how-spectrix-works)
 
-\- \[Proposed ASSM Algorithm](#-proposed-assm-algorithm)
+- [Proposed ASSM Algorithm](#-proposed-assm-algorithm)
 
-\- \[Technology Stack](#-technology-stack)
+- [Technology Stack](#-technology-stack)
 
-\- \[Simulation Configuration](#-simulation-configuration)
+- [Simulation Configuration](#-simulation-configuration)
 
-\- \[Experimental Methodology](#-experimental-methodology)
+- [Experimental Methodology](#-experimental-methodology)
 
-\- \[Performance Results](#-performance-results)
+- [Performance Results](#-performance-results)
 
-\- \[Visual Results](#-visual-results)
+- [Visual Results](#-visual-results)
 
-\- \[Project Structure](#-project-structure)
+- [Project Structure](#-project-structure)
 
-\- \[Installation and Setup](#-installation-and-setup)
+- [Installation and Setup](#-installation-and-setup)
 
-\- \[Running the Project](#-running-the-project)
+- [Running the Project](#-running-the-project)
 
-\- \[Limitations](#-limitations)
+- [Limitations](#-limitations)
 
-\- \[Future Scope](#-future-scope)
+- [Future Scope](#-future-scope)
 
-\- \[Conclusion](#-conclusion)
-
-
-
-\---
+- [Conclusion](#-conclusion)
 
 
 
-\## 🔍 Overview
+---
 
 
 
-\*\*SPECTRIX\*\* is a Python-based cognitive radio spectrum management simulation framework developed to improve channel selection and reduce transmission collisions in dynamic wireless networks.
+## 🔍 Overview
+
+
+
+**SPECTRIX** is a Python-based cognitive radio spectrum management simulation framework developed to improve channel selection and reduce transmission collisions in dynamic wireless networks.
 
 
 
@@ -90,13 +90,13 @@ The system integrates multiple intelligent techniques:
 
 
 
-\- \*\*Cooperative Spectrum Sensing:\*\* Combines sensing reports from multiple secondary users to determine channel availability.
+- **Cooperative Spectrum Sensing:** Combines sensing reports from multiple secondary users to determine channel availability.
 
-\- \*\*Hidden Markov Model (HMM):\*\* Predicts future channel occupancy using historical channel-state information.
+- **Hidden Markov Model (HMM):** Predicts future channel occupancy using historical channel-state information.
 
-\- \*\*Fuzzy Logic:\*\* Evaluates channel suitability using signal-to-noise ratio, occupancy, and interference.
+- **Fuzzy Logic:** Evaluates channel suitability using signal-to-noise ratio, occupancy, and interference.
 
-\- \*\*Adaptive Spectrum Selection and Management (ASSM):\*\* Selects suitable channels using the combined sensing, prediction, and channel-quality information.
+- **Adaptive Spectrum Selection and Management (ASSM):** Selects suitable channels using the combined sensing, prediction, and channel-quality information.
 
 
 
@@ -104,13 +104,13 @@ The proposed ASSM approach is evaluated against a Standard First-Available Chann
 
 
 
-> \[!NOTE]
+> [!NOTE]
 
 > SPECTRIX uses synthetic simulation data. The reported results represent simulated network behavior and are not measurements from a physical wireless deployment.
 
 
 
-\## 🎯 Problem Statement
+## 🎯 Problem Statement
 
 
 
@@ -130,33 +130,33 @@ SPECTRIX addresses this problem by exploring an intelligent channel-selection ap
 
 
 
-\## 🎯 Project Objectives
+## 🎯 Project Objectives
 
 
 
-1\. Generate a seven-day synthetic wireless channel occupancy dataset.
+1. Generate a seven-day synthetic wireless channel occupancy dataset.
 
-2\. Simulate primary-user and secondary-user activities.
+2. Simulate primary-user and secondary-user activities.
 
-3\. Implement individual and cooperative spectrum sensing.
+3. Implement individual and cooperative spectrum sensing.
 
-4\. Predict channel occupancy using an HMM.
+4. Predict channel occupancy using an HMM.
 
-5\. Evaluate channel suitability through fuzzy logic.
+5. Evaluate channel suitability through fuzzy logic.
 
-6\. Develop the proposed ASSM channel allocator.
+6. Develop the proposed ASSM channel allocator.
 
-7\. Compare ASSM with a Standard First-Available baseline.
+7. Compare ASSM with a Standard First-Available baseline.
 
-8\. Evaluate system performance under different user counts and traffic loads.
-
-
-
-\---
+8. Evaluate system performance under different user counts and traffic loads.
 
 
 
-\## 🏗️ System Architecture
+---
+
+
+
+## 🏗️ System Architecture
 
 
 
@@ -202,7 +202,7 @@ flowchart TD
 
 
 
-\### Main System Components
+### Main System Components
 
 
 
@@ -234,7 +234,7 @@ flowchart TD
 
 
 
-\## ⚙️ How SPECTRIX Works
+## ⚙️ How SPECTRIX Works
 
 
 
@@ -272,7 +272,7 @@ flowchart TD
 
 
 
-\## 🧠 Proposed ASSM Algorithm
+## 🧠 Proposed ASSM Algorithm
 
 
 
@@ -280,7 +280,7 @@ The proposed Adaptive Spectrum Selection and Management algorithm combines three
 
 
 
-\### 1. Cooperative Spectrum Sensing
+### 1. Cooperative Spectrum Sensing
 
 
 
@@ -312,7 +312,7 @@ The cooperative sensing configuration is:
 
 
 
-\### 2. HMM Occupancy Prediction
+### 2. HMM Occupancy Prediction
 
 
 
@@ -324,7 +324,7 @@ The model is trained using the first five days of simulation data and evaluated 
 
 
 
-\### 3. Fuzzy Logic Evaluation
+### 3. Fuzzy Logic Evaluation
 
 
 
@@ -332,11 +332,11 @@ The fuzzy logic engine evaluates channel suitability using:
 
 
 
-\- Signal-to-Noise Ratio (SNR)
+- Signal-to-Noise Ratio (SNR)
 
-\- Channel occupancy
+- Channel occupancy
 
-\- Interference
+- Interference
 
 
 
@@ -344,7 +344,7 @@ It uses nine heuristic fuzzy rules and centroid defuzzification to calculate a s
 
 
 
-\### 4. Channel Allocation Conditions
+### 4. Channel Allocation Conditions
 
 
 
@@ -372,11 +372,11 @@ The selected channel is then passed to the transmission simulator.
 
 
 
-\---
+---
 
 
 
-\## 🛠️ Technology Stack
+## 🛠️ Technology Stack
 
 
 
@@ -400,7 +400,7 @@ The selected channel is then passed to the transmission simulator.
 
 
 
-\## 📊 Simulation Configuration
+## 📊 Simulation Configuration
 
 
 
@@ -434,7 +434,7 @@ The selected channel is then passed to the transmission simulator.
 
 
 
-\### Channel Configuration
+### Channel Configuration
 
 
 
@@ -460,15 +460,15 @@ The selected channel is then passed to the transmission simulator.
 
 
 
-\---
+---
 
 
 
-\## 🧪 Experimental Methodology
+## 🧪 Experimental Methodology
 
 
 
-\### Training and Evaluation
+### Training and Evaluation
 
 
 
@@ -490,7 +490,7 @@ The HMM is trained using the first five days. The final two days are reserved fo
 
 
 
-\### Baseline vs ASSM Comparison
+### Baseline vs ASSM Comparison
 
 
 
@@ -498,29 +498,29 @@ Two channel-allocation approaches are compared using the same saved scenario inp
 
 
 
-\*\*Standard First-Available Baseline\*\*
+**Standard First-Available Baseline**
 
 
 
-\- Uses cooperative spectrum sensing.
+- Uses cooperative spectrum sensing.
 
-\- Selects the first available channel in a fixed channel order.
+- Selects the first available channel in a fixed channel order.
 
-\- Avoids duplicate allocations within the same simulation slot.
-
-
-
-\*\*Proposed ASSM\*\*
+- Avoids duplicate allocations within the same simulation slot.
 
 
 
-\- Uses cooperative spectrum sensing.
+**Proposed ASSM**
 
-\- Incorporates HMM-based occupancy prediction.
 
-\- Evaluates channel suitability through fuzzy logic.
 
-\- Selects the highest-scoring eligible channel.
+- Uses cooperative spectrum sensing.
+
+- Incorporates HMM-based occupancy prediction.
+
+- Evaluates channel suitability through fuzzy logic.
+
+- Selects the highest-scoring eligible channel.
 
 
 
@@ -528,7 +528,7 @@ Both algorithms use common simulation scenarios to support a controlled comparis
 
 
 
-\### Additional Experiments
+### Additional Experiments
 
 
 
@@ -548,15 +548,15 @@ Both algorithms use common simulation scenarios to support a controlled comparis
 
 
 
-\---
+---
 
 
 
-\## 📈 Performance Results
+## 📈 Performance Results
 
 
 
-\### 1. Main Baseline vs ASSM Comparison
+### 1. Main Baseline vs ASSM Comparison
 
 
 
@@ -568,15 +568,15 @@ Held-out evaluation results for the two-day testing period:
 
 |---|---:|---:|
 
-| Packet Delivery Ratio | 99.6755% | \*\*99.8491%\*\* |
+| Packet Delivery Ratio | 99.6755% | **99.8491%** |
 
-| Collisions | 246 | \*\*1\*\* |
+| Collisions | 246 | **1** |
 
-| Collision Rate | 1.6069% | \*\*0.0068%\*\* |
+| Collision Rate | 1.6069% | **0.0068%** |
 
-| Throughput | 917.2917 bps | \*\*918.8889 bps\*\* |
+| Throughput | 917.2917 bps | **918.8889 bps** |
 
-| Average Latency | 12.2326 s | \*\*11.7964 s\*\* |
+| Average Latency | 12.2326 s | **11.7964 s** |
 
 | Allocation Utilization | 11.0742% | 10.6641% |
 
@@ -584,23 +584,23 @@ Held-out evaluation results for the two-day testing period:
 
 
 
-\*\*Key observations:\*\*
+**Key observations:**
 
 
 
-\- Approximately 99.59% reduction in collisions.
+- Approximately 99.59% reduction in collisions.
 
-\- Improved packet delivery ratio.
+- Improved packet delivery ratio.
 
-\- Slightly higher throughput.
+- Slightly higher throughput.
 
-\- Lower average latency.
+- Lower average latency.
 
-\- Nearly equal fairness between the two approaches.
+- Nearly equal fairness between the two approaches.
 
 
 
-\### 2. Scalability Analysis
+### 2. Scalability Analysis
 
 
 
@@ -622,21 +622,21 @@ The proposed algorithm was evaluated with different numbers of secondary users.
 
 
 
-\*\*Overall observations:\*\*
+**Overall observations:**
 
 
 
-\- Higher PDR with ASSM in all four experiments.
+- Higher PDR with ASSM in all four experiments.
 
-\- Higher throughput with ASSM in all four experiments.
+- Higher throughput with ASSM in all four experiments.
 
-\- Lower latency with ASSM in three out of four experiments.
+- Lower latency with ASSM in three out of four experiments.
 
-\- Aggregate collision reduction of approximately 99.90%.
+- Aggregate collision reduction of approximately 99.90%.
 
 
 
-\### 3. Traffic-Load Analysis
+### 3. Traffic-Load Analysis
 
 
 
@@ -656,7 +656,7 @@ ASSM substantially reduced collisions across all three tested traffic conditions
 
 
 
-\### 4. HMM Evaluation
+### 4. HMM Evaluation
 
 
 
@@ -682,11 +682,11 @@ The HMM evaluation also includes probability calibration and comparison against 
 
 
 
-\---
+---
 
 
 
-\## 📊 Visual Results
+## 📊 Visual Results
 
 
 
@@ -694,63 +694,63 @@ The following are selected graphs generated by the project.
 
 
 
-\### Baseline vs ASSM Performance
+### Baseline vs ASSM Performance
 
 
 
-!\[Overall Performance Comparison](outputs/graphs/baseline\_comparison/overall\_performance\_comparison.png)
+![Overall Performance Comparison](outputs/graphs/baseline_comparison/overall_performance_comparison.png)
 
 
 
-!\[Collision Rate Comparison](outputs/graphs/baseline\_comparison/collision\_rate\_comparison.png)
+![Collision Rate Comparison](outputs/graphs/baseline_comparison/collision_rate_comparison.png)
 
 
 
-!\[Channel Allocation Comparison](outputs/graphs/baseline\_comparison/channel\_allocation\_comparison.png)
+![Channel Allocation Comparison](outputs/graphs/baseline_comparison/channel_allocation_comparison.png)
 
 
 
-\### Scalability Analysis
+### Scalability Analysis
 
 
 
-!\[Scalability Collision Comparison](outputs/graphs/scalability\_analysis/collision\_comparison.png)
+![Scalability Collision Comparison](outputs/graphs/scalability_analysis/collision_comparison.png)
 
 
 
-!\[Scalability Throughput Comparison](outputs/graphs/scalability\_analysis/throughput\_comparison.png)
+![Scalability Throughput Comparison](outputs/graphs/scalability_analysis/throughput_comparison.png)
 
 
 
-!\[Scalability Latency Comparison](outputs/graphs/scalability\_analysis/latency\_comparison.png)
+![Scalability Latency Comparison](outputs/graphs/scalability_analysis/latency_comparison.png)
 
 
 
-\### Channel Occupancy and HMM Analysis
+### Channel Occupancy and HMM Analysis
 
 
 
-!\[Channel Occupancy Heatmap](outputs/graphs/channel\_heatmap.png)
+![Channel Occupancy Heatmap](outputs/graphs/channel_heatmap.png)
 
 
 
-!\[HMM Probability Calibration](outputs/graphs/hmm\_probability\_calibration.png)
+![HMM Probability Calibration](outputs/graphs/hmm_probability_calibration.png)
 
 
 
-!\[Weekly Occupancy](outputs/graphs/weekly\_occupancy.png)
+![Weekly Occupancy](outputs/graphs/weekly_occupancy.png)
 
 
 
-\*Additional graphs and detailed experiment reports are available in the `outputs/` directory.\*
+*Additional graphs and detailed experiment reports are available in the `outputs/` directory.*
 
 
 
-\---
+---
 
 
 
-\## 📁 Project Structure
+## 📁 Project Structure
 
 
 
@@ -840,33 +840,33 @@ SPECTRIX/
 
 
 
-> \[!IMPORTANT]
+> [!IMPORTANT]
 
 > Large generated scenario CSV files are excluded from normal Git tracking to keep the repository manageable. Their generation scripts and compact metadata are retained. The raw occupancy dataset is included as the primary simulation input.
 
 
 
-\---
+---
 
 
 
-\## 💻 Installation and Setup
+## 💻 Installation and Setup
 
 
 
-\### Prerequisites
+### Prerequisites
 
 
 
-\- Python 3.13.1
+- Python 3.13.1
 
-\- Git
+- Git
 
-\- Visual Studio Code (recommended)
+- Visual Studio Code (recommended)
 
 
 
-\### 1. Clone the Repository
+### 1. Clone the Repository
 
 
 
@@ -886,11 +886,11 @@ cd SPECTRIX-AI-Cognitive-Radio
 
 
 
-\### 2. Create a Virtual Environment
+### 2. Create a Virtual Environment
 
 
 
-\*\*Windows PowerShell:\*\*
+**Windows PowerShell:**
 
 
 
@@ -914,7 +914,7 @@ Activate it:
 
 
 
-\### 3. Install Dependencies
+### 3. Install Dependencies
 
 
 
@@ -926,11 +926,11 @@ python -m pip install -r requirements.txt
 
 
 
-\---
+---
 
 
 
-\## ▶️ Running the Project
+## ▶️ Running the Project
 
 
 
@@ -938,7 +938,7 @@ Run all commands from the repository's root directory.
 
 
 
-\### Step 1: Validate the Channel Simulator
+### Step 1: Validate the Channel Simulator
 
 
 
@@ -950,7 +950,7 @@ python src/channel\_simulator.py
 
 
 
-\### Step 2: Generate the Raw Occupancy Dataset (if needed)
+### Step 2: Generate the Raw Occupancy Dataset (if needed)
 
 
 
@@ -974,7 +974,7 @@ data/raw/occupancy\_7days.csv
 
 
 
-\### Step 3: Generate Common Simulation Scenarios
+### Step 3: Generate Common Simulation Scenarios
 
 
 
@@ -998,7 +998,7 @@ data/processed/baseline\_comparison/common\_scenarios\_7days.csv
 
 
 
-\### Step 4: Run Baseline vs ASSM Comparison
+### Step 4: Run Baseline vs ASSM Comparison
 
 
 
@@ -1014,7 +1014,7 @@ The comparison generates performance reports for both algorithms.
 
 
 
-> \[!WARNING]
+> [!WARNING]
 
 > Generation and simulation scripts write files into the project directories and may overwrite existing generated results. Keep backups before rerunning experiments.
 
@@ -1024,45 +1024,45 @@ Additional scripts support HMM evaluation, robustness testing, traffic-load anal
 
 
 
-\---
+---
 
 
 
-\## ⚠️ Limitations
+## ⚠️ Limitations
 
 
 
-\- The project uses synthetic channel-occupancy data.
+- The project uses synthetic channel-occupancy data.
 
-\- Channel-quality parameters are simulated assumptions rather than physical RF measurements.
+- Channel-quality parameters are simulated assumptions rather than physical RF measurements.
 
-\- Results depend on simulation configuration, randomization, traffic patterns and allocation rules.
+- Results depend on simulation configuration, randomization, traffic patterns and allocation rules.
 
-\- Latency improvements are not consistent across all tested scalability scenarios.
+- Latency improvements are not consistent across all tested scalability scenarios.
 
-\- The system has not been validated using a real-world wireless deployment.
-
-
-
-\## 🚀 Future Scope
+- The system has not been validated using a real-world wireless deployment.
 
 
 
-\- Integration with Software Defined Radio (SDR) hardware.
-
-\- Validation using real-world spectrum measurements.
-
-\- Adaptive HMM training and prediction.
-
-\- Evaluation of additional intelligent channel-allocation algorithms.
-
-\- Testing under more complex and dynamic wireless environments.
-
-\- Extension to larger cognitive radio network simulations.
+## 🚀 Future Scope
 
 
 
-\## 🏁 Conclusion
+- Integration with Software Defined Radio (SDR) hardware.
+
+- Validation using real-world spectrum measurements.
+
+- Adaptive HMM training and prediction.
+
+- Evaluation of additional intelligent channel-allocation algorithms.
+
+- Testing under more complex and dynamic wireless environments.
+
+- Extension to larger cognitive radio network simulations.
+
+
+
+## 🏁 Conclusion
 
 
 
@@ -1082,7 +1082,7 @@ SPECTRIX provides a foundation for further exploration of intelligent spectrum a
 
 
 
-\---
+---
 
 
 
