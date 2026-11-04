@@ -1,0 +1,6 @@
+user_id,current_channel,current_state,total_requests,successful_allocations,pending_requests,total_packets_sent,failed_transmissions,total_retries,average_waiting_time
+SU01,,IDLE,9275,10368,0,9255,20,1093,12.429
+SU02,,IDLE,9282,10399,0,9277,5,1117,14.095
+SU03,,IDLE,9248,10391,0,9236,12,1143,16.447
+SU04,,IDLE,9331,10552,0,9320,11,1221,20.306
+SU05,,IDLE,9282,10466,0,9267,15,1184,29.969

@@ -1,0 +1,3 @@
+evaluation_window,slots,requests_generated,allocated_users,successful_packets,collisions,transmission_attempts,bytes_transmitted
+Held-out Test,17280,13252,14713,13239,1,14713,19858500
+Training/Warm-up Replay,43200,33166,37463,33116,4,37463,49674000

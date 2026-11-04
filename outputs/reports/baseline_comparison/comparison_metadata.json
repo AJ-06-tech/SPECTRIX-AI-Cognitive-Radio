@@ -1,0 +1,18 @@
+{
+    "project": "SPECTRIX",
+    "comparison_type": "Paired common-scenario replay",
+    "baseline_algorithm": "First available channel using cooperative sensing",
+    "assm_algorithm": "Cooperative sensing, HMM prediction and fuzzy allocation",
+    "training_period": "2026-11-02 to 2026-11-06",
+    "held_out_test_start": "2026-11-07 00:00:00",
+    "held_out_test_end_exclusive": "2026-11-09 00:00:00",
+    "evaluation_slots": 17280,
+    "slot_duration_seconds": 10,
+    "packet_id_method": "User ID + original creation timestamp + request position within the shared slot",
+    "transmission_randomness": "Deterministic SHA-256 keyed random draw by user, packet ID and attempt number",
+    "traffic_requests_baseline": 13252,
+    "traffic_requests_assm": 13252,
+    "actual_occupancy_use": "Transmission outcome evaluation only",
+    "pending_packets_included_in_pdr": true,
+    "latency_population": "Successfully completed packets only"
+}

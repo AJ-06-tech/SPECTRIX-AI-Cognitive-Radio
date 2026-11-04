@@ -1,0 +1,4 @@
+user_id,packets_delivered,pending_packets,average_latency_seconds
+SU01,2680,0,12.772388059701493
+SU02,2640,0,12.678030303030303
+SU03,2601,0,12.349096501345636

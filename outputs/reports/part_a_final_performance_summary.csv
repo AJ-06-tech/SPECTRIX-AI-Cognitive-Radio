@@ -1,0 +1,2 @@
+simulation_slots,simulation_days,packet_delivery_ratio_percent,throughput_bps,average_latency_seconds,collision_rate_percent,total_handovers,total_packets_delivered,total_failed_packets,packet_delivery_fairness,delivery_rate_fairness,waiting_time_fairness
+60480.0,7.0,99.864,919.742,18.653,0.01,3415.0,46355.0,63.0,0.99999,1.0,0.89909

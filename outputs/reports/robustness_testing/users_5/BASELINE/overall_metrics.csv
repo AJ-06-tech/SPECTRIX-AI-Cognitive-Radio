@@ -1,0 +1,2 @@
+algorithm,secondary_users,evaluation_slots,packet_requests,delivered_packets,failed_packets,pending_packets,packet_delivery_ratio_percent,transmission_attempts,successful_attempts,failed_attempts,collisions,collision_rate_percent,throughput_bps,average_latency_seconds,channel_utilization_percent,jain_delivery_fairness
+BASELINE,5,17280,13226,13191,35,0,99.7354,15235,13191,2044,244,1.6016,916.0417,12.2697,11.0207,0.99986

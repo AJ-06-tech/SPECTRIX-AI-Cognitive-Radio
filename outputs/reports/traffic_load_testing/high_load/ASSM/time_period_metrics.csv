@@ -1,0 +1,7 @@
+time_period,slots,requests,delivered,attempts,collisions,bytes_transmitted
+Afternoon,3600,5388,5381,6039,0,8071500
+Early Morning,2160,1321,1318,1473,0,1977000
+Evening,3600,6686,6672,7481,0,10008000
+Late Night,1440,1052,1052,1158,0,1578000
+Midnight,3600,1356,1355,1502,0,2032500
+Morning,2880,3930,3922,4408,1,5883000

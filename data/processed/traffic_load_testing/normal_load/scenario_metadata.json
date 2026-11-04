@@ -1,0 +1,20 @@
+{
+    "project": "SPECTRIX",
+    "experiment": "Traffic Load Robustness",
+    "traffic_load": "normal",
+    "traffic_multiplier": 1.0,
+    "simulation_days": 7,
+    "slot_duration_seconds": 10,
+    "total_slots": 60480,
+    "total_channels": 8,
+    "secondary_users": 5,
+    "total_packet_requests": 46418,
+    "training_slots": 43200,
+    "held_out_test_slots": 17280,
+    "training_period_end": "2026-11-07 00:00:00",
+    "held_out_test_start": "2026-11-07 00:00:00",
+    "held_out_test_end": "2026-11-08 23:59:50",
+    "random_seed": 42,
+    "normal_load_matches_original": true,
+    "note": "Synthetic simulation scenarios. Only secondary-user request probabilities are scaled between traffic configurations."
+}

@@ -1,0 +1,17 @@
+{
+    "project": "SPECTRIX",
+    "dataset_type": "Synthetic simulation scenarios",
+    "simulation_days": 7,
+    "slot_duration_seconds": 10,
+    "total_slots": 60480,
+    "total_channels": 8,
+    "secondary_users": 5,
+    "total_packet_requests": 46418,
+    "training_warmup_slots": 43200,
+    "held_out_test_slots": 17280,
+    "training_period_end": "2026-11-07 00:00:00",
+    "held_out_test_start": "2026-11-07 00:00:00",
+    "held_out_test_end": "2026-11-08 23:59:50",
+    "primary_comparison_window": "2026-11-07 to 2026-11-08",
+    "random_seed_note": "Uses the existing module-level random seeds. Saved scenarios are intended to be replayed by both algorithms."
+}

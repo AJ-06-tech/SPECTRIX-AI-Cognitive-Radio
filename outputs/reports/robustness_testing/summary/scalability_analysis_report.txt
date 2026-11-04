@@ -1,0 +1,81 @@
+SPECTRIX - SCALABILITY ANALYSIS REPORT
+=================================================================
+
+Experiment: Standard Baseline vs ASSM
+Secondary users tested: 3, 5, 8 and 10
+Evaluation period: 7-8 November 2026
+Evaluation slots per experiment: 17,280
+
+NOTE: Results are from a synthetic simulation.
+
+1. CONSOLIDATED RESULTS
+
+-----------------------------------------------------------------
+SECONDARY USERS: 3
+Packet Requests: 7960
+Baseline PDR: 99.5101%
+ASSM PDR: 99.8995%
+Baseline Collisions: 563
+ASSM Collisions: 0
+Baseline Throughput: 550.0694 bps
+ASSM Throughput: 552.2222 bps
+Baseline Latency: 12.6019 seconds
+ASSM Latency: 11.3292 seconds
+Collision Reduction: 100.00%
+
+-----------------------------------------------------------------
+SECONDARY USERS: 5
+Packet Requests: 13226
+Baseline PDR: 99.7354%
+ASSM PDR: 99.9017%
+Baseline Collisions: 244
+ASSM Collisions: 0
+Baseline Throughput: 916.0417 bps
+ASSM Throughput: 917.5694 bps
+Baseline Latency: 12.2697 seconds
+ASSM Latency: 11.7021 seconds
+Collision Reduction: 100.00%
+
+-----------------------------------------------------------------
+SECONDARY USERS: 8
+Packet Requests: 21089
+Baseline PDR: 99.7866%
+ASSM PDR: 99.9004%
+Baseline Collisions: 172
+ASSM Collisions: 1
+Baseline Throughput: 1461.3889 bps
+ASSM Throughput: 1463.0556 bps
+Baseline Latency: 13.9142 seconds
+ASSM Latency: 13.7953 seconds
+Collision Reduction: 99.42%
+
+-----------------------------------------------------------------
+SECONDARY USERS: 10
+Packet Requests: 26380
+Baseline PDR: 99.8332%
+ASSM PDR: 99.8901%
+Baseline Collisions: 61
+ASSM Collisions: 0
+Baseline Throughput: 1828.8889 bps
+ASSM Throughput: 1829.9306 bps
+Baseline Latency: 18.9820 seconds
+ASSM Latency: 20.7210 seconds
+Collision Reduction: 100.00%
+
+
+2. OVERALL OBSERVATIONS
+-----------------------------------------------------------------
+ASSM achieved higher PDR in 4 out of 4 experiments.
+ASSM achieved higher throughput in 4 out of 4 experiments.
+ASSM achieved lower latency in 3 out of 4 experiments.
+
+Total Baseline Collisions: 1040
+Total ASSM Collisions: 1
+Aggregate Collision Reduction: 99.90%
+
+3. CONCLUSION
+-----------------------------------------------------------------
+ASSM achieved higher packet delivery ratio and throughput in all four tested scenarios.
+It also substantially reduced collisions across the tested synthetic scenarios.
+Latency improvement was not consistent across all user counts.
+These results demonstrate the behavior of the proposed algorithm under the simulated conditions. They do not establish performance in a real wireless deployment.

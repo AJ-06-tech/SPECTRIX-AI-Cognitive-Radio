@@ -1,0 +1,23 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local backup
+SPECTRIX_Final_Backup.zip
+
+# Temporary files
+*.tmp
+*.log
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+data/processed/**/common_scenarios*.csv
+
+# Empty placeholder file
+/main.py

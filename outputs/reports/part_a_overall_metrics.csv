@@ -1,0 +1,2 @@
+simulation_slots,simulation_days,total_packet_requests,successfully_delivered_packets,pending_packets,packet_delivery_ratio_percent,total_transmission_attempts,successful_transmissions,failed_packets,failed_attempts,total_collisions,collision_rate_percent,total_handovers,total_bytes_transmitted,throughput_bps,average_packet_latency_seconds,allocated_user_transmissions
+60480,7.0,46418,46355,0,99.864,52176,46355,63,5821,5,0.01,3415,69532500,919.742,18.653,52176

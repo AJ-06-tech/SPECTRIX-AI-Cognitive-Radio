@@ -1,0 +1,2 @@
+algorithm,secondary_users,evaluation_slots,packet_requests,delivered_packets,failed_packets,pending_packets,packet_delivery_ratio_percent,transmission_attempts,successful_attempts,failed_attempts,collisions,collision_rate_percent,throughput_bps,average_latency_seconds,channel_utilization_percent,jain_delivery_fairness
+ASSM,5,17280,6607,6601,6,0,99.9092,7314,6601,713,0,0.0,458.4028,11.2498,5.2908,0.99926

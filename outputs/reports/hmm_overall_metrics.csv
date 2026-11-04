@@ -1,0 +1,2 @@
+accuracy,precision,recall,f1_score,false_alarm_rate,miss_detection_rate,true_positive,true_negative,false_positive,false_negative
+97.25823253660512,96.92262602579133,96.90684726337382,96.9147360023445,2.4607452542770094,3.0931527366261844,59526,74916,1890,1900
