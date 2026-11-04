@@ -168,27 +168,27 @@ The following diagram represents the major processing stages implemented in SPEC
 
 flowchart TD
 
-&#x20;   A\["Synthetic Channel Occupancy Dataset"] --> B\["Channel Simulator"]
+&#x20;   A["Synthetic Channel Occupancy Dataset"] --> B["Channel Simulator"]
 
-&#x20;   B --> C\["Primary User \& Secondary User Simulation"]
+&#x20;   B --> C["Primary User & Secondary User Simulation"]
 
-&#x20;   C --> D\["Spectrum Sensing Engine"]
+&#x20;   C --> D["Spectrum Sensing Engine"]
 
-&#x20;   D --> E\["Cooperative Spectrum Sensing"]
+&#x20;   D --> E["Cooperative Spectrum Sensing"]
 
-&#x20;   E --> F\["HMM Occupancy Predictor"]
+&#x20;   E --> F["HMM Occupancy Predictor"]
 
-&#x20;   E --> G\["Fuzzy Logic Engine"]
+&#x20;   E --> G["Fuzzy Logic Engine"]
 
-&#x20;   F --> H\["ASSM Channel Allocator"]
+&#x20;   F --> H["ASSM Channel Allocator"]
 
 &#x20;   G --> H
 
-&#x20;   H --> I\["Transmission Simulator"]
+&#x20;   H --> I["Transmission Simulator"]
 
-&#x20;   I --> J\["Performance Evaluation"]
+&#x20;   I --> J["Performance Evaluation"]
 
-&#x20;   J --> K\["Graphs, Reports \& Metrics"]
+&#x20;   J --> K["Graphs, Reports & Metrics"]
 
 
 
@@ -242,31 +242,31 @@ flowchart TD
 
 flowchart TD
 
-&#x20;   A\["Start Simulation"] --> B\["Load Channel Occupancy Data"]
+&#x20;   A["Start Simulation"] --> B["Load Channel Occupancy Data"]
 
-&#x20;   B --> C\["Generate Secondary User Requests"]
+&#x20;   B --> C["Generate Secondary User Requests"]
 
-&#x20;   C --> D\["Perform Spectrum Sensing"]
+&#x20;   C --> D["Perform Spectrum Sensing"]
 
-&#x20;   D --> E\["Combine Sensing Reports"]
+&#x20;   D --> E["Combine Sensing Reports"]
 
-&#x20;   E --> F\["Predict Future Occupancy Using HMM"]
+&#x20;   E --> F["Predict Future Occupancy Using HMM"]
 
-&#x20;   F --> G\["Calculate Fuzzy Suitability Score"]
+&#x20;   F --> G["Calculate Fuzzy Suitability Score"]
 
 &#x20;   G --> H{"Channel Eligible?"}
 
-&#x20;   H -->|No| I\["Evaluate Next Channel"]
+&#x20;   H -->|No| I["Evaluate Next Channel"]
 
 &#x20;   I --> H
 
-&#x20;   H -->|Yes| J\["Select Highest-Scoring Channel"]
+&#x20;   H -->|Yes| J["Select Highest-Scoring Channel"]
 
-&#x20;   J --> K\["Simulate Packet Transmission"]
+&#x20;   J --> K["Simulate Packet Transmission"]
 
-&#x20;   K --> L\["Calculate Performance Metrics"]
+&#x20;   K --> L["Calculate Performance Metrics"]
 
-&#x20;   L --> M\["Generate Reports and Graphs"]
+&#x20;   L --> M["Generate Reports and Graphs"]
 
 ```
 
@@ -772,17 +772,17 @@ SPECTRIX/
 
 │   ├── raw/
 
-│   │   └── occupancy\_7days.csv
+│   │   └── occupancy_7days.csv
 
 │   │
 
 │   └── processed/
 
-│       ├── baseline\_comparison/
+│       ├── baseline_comparison/
 
-│       ├── robustness\_testing/
+│       ├── robustness_testing/
 
-│       └── traffic\_load\_testing/
+│       └── traffic_load_testing/
 
 │
 
@@ -790,29 +790,29 @@ SPECTRIX/
 
 │   ├── config.py
 
-│   ├── database\_generator.py
+│   ├── database_generator.py
 
-│   ├── primary\_user.py
+│   ├── primary_user.py
 
-│   ├── secondary\_user.py
+│   ├── secondary_user.py
 
-│   ├── channel\_simulator.py
+│   ├── channel_simulator.py
 
-│   ├── spectrum\_sensing.py
+│   ├── spectrum_sensing.py
 
-│   ├── hmm\_predictor.py
+│   ├── hmm_predictor.py
 
-│   ├── fuzzy\_logic.py
+│   ├── fuzzy_logic.py
 
-│   ├── assm\_allocator.py
+│   ├── assm_allocator.py
 
-│   ├── baseline\_allocator.py
+│   ├── baseline_allocator.py
 
-│   ├── transmission\_simulator.py
+│   ├── transmission_simulator.py
 
-│   ├── scenario\_generator.py
+│   ├── scenario_generator.py
 
-│   ├── baseline\_comparison\_simulation.py
+│   ├── baseline_comparison_simulation.py
 
 │   └── ... (additional analysis and experiment scripts)
 
@@ -822,19 +822,19 @@ SPECTRIX/
 
 &#x20;   ├── graphs/
 
-&#x20;   │   ├── baseline\_comparison/
+&#x20;   │   ├── baseline_comparison/
 
-&#x20;   │   └── scalability\_analysis/
+&#x20;   │   └── scalability_analysis/
 
 &#x20;   │
 
 &#x20;   └── reports/
 
-&#x20;       ├── baseline\_comparison/
+&#x20;       ├── baseline_comparison/
 
-&#x20;       ├── robustness\_testing/
+&#x20;       ├── robustness_testing/
 
-&#x20;       └── traffic\_load\_testing/
+&#x20;       └── traffic_load_testing/
 
 ```
 
@@ -872,7 +872,7 @@ SPECTRIX/
 
 ```bash
 
-git clone https://github.com/YOUR-USERNAME/SPECTRIX-AI-Cognitive-Radio.git
+git clone https://github.com/AJ-06-tech/SPECTRIX-AI-Cognitive-Radio.git
 
 ```
 
@@ -944,7 +944,7 @@ Run all commands from the repository's root directory.
 
 ```powershell
 
-python src/channel\_simulator.py
+python src/channel_simulator.py
 
 ```
 
@@ -956,7 +956,7 @@ python src/channel\_simulator.py
 
 ```powershell
 
-python src/database\_generator.py
+python src/database_generator.py
 
 ```
 
@@ -968,7 +968,7 @@ The generated dataset is saved to:
 
 ```text
 
-data/raw/occupancy\_7days.csv
+data/raw/occupancy_7days.csv
 
 ```
 
@@ -980,7 +980,7 @@ data/raw/occupancy\_7days.csv
 
 ```powershell
 
-python src/scenario\_generator.py
+python src/scenario_generator.py
 
 ```
 
@@ -992,7 +992,7 @@ This generates:
 
 ```text
 
-data/processed/baseline\_comparison/common\_scenarios\_7days.csv
+data/processed/baseline_comparison/common_scenarios_7days.csv
 
 ```
 
@@ -1004,7 +1004,7 @@ data/processed/baseline\_comparison/common\_scenarios\_7days.csv
 
 ```powershell
 
-python src/baseline\_comparison\_simulation.py
+python src/baseline_comparison_simulation.py
 
 ```
 
